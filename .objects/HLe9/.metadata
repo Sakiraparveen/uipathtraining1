@@ -1,0 +1,12 @@
+﻿{
+  "Name": "WhatsApp",
+  "Type": "App",
+  "Id": "HLe9vkIoBUaZaEXjemhr1g",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/HLe9vkIoBUaZaEXjemhr1g",
+  "Created": "2025-05-12T06:56:14.0363476Z",
+  "Updated": "2025-05-12T06:56:14.0363476Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

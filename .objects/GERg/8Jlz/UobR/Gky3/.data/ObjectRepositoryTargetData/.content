@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U4p6eyPLQEi5xPQJj1515Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="1099, 730, 283, 96" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='A Minecraft Movie ' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='A Minecraft Movie ' tag='SPAN' type='' class='card-title activator' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='A Minecraft Movie' /&gt;" Guid="ae1a642d-a1ab-4085-963a-0b2495d930dc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6f6a502f-a516-42f8-8a8f-4937b4da5171" DesignTimeRectangle="1063, 161, 355, 533" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='*' tag='IMG' parentclass='card-image' idx='2' /&gt;" Guid="55d51276-941b-4304-9e16-7530d292a6aa" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="52f0cc32589c84bc998339d93e40dbf9.png" xmlns="">0iIS5os9XGU6DtmzCCOUsIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

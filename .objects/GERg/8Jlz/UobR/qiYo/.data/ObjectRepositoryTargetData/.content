@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NqmK-7Vg_EiVqU25BRfrDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="1099, 838, 283, 135" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' innertext='A queen sends the powerful and feared sorceress Gray Alys to the ghost...' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="259d9d70-3889-4bf5-8f7e-832a9e9ea799" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="03d38af0a81d0436162092883a17bf95.png" xmlns="">0JyfPiEYLdUa4Gidu62AAIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7265-X_AwU-wKAnj5cpR2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" DesignTimeRectangle="11, 218, 1897, 813" FuzzySelectorArgument="&lt;webctrl type='' class='body row1 scroll-y' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Instructions&amp;#xA;EN&amp;#xA;&amp;#xA;&amp;#xA;1. The goal of this challenge is to create a workflow that will input data from a' /&gt;" Guid="d9157222-f963-4ffb-8d66-1d94600a5102" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3f473492-ca1b-4ebe-95f4-24cb324dd12a" CvElementArea="626, 687, 179, 61" CvTextArea="672, 707, 84, 19" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="630, 690, 173, 54" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='btn uiColorButton' aaname='Submit' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Submit' /&gt;" Guid="760ceee5-8c6c-45b5-968e-1fc3b3ccdf30" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c7d96adc8b3c94912e6306c5d81ba0c.png" xmlns="">0BRMf_ZIpfkGnYcCDp8HlKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "After meeting with newl…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "PGCozGqT1U6NKT0DvzPeRQ",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/PGCozGqT1U6NKT0DvzPeRQ",
+  "ParentRef": "XG5XaBg8w0i1qZqCFEjbhA/UobRqZ65YECWI-lBb2DeDw",
+  "Created": "2025-05-20T13:38:30.3791658Z",
+  "Updated": "2025-05-20T13:38:30.3791658Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

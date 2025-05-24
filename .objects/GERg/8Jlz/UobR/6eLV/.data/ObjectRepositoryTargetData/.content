@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SNFB7_qL40Kf8dDHkB7ayA" Reference="XG5XaBg8w0i1qZqCFEjbhA/6eLVAyTaOUi0zrC6RSobjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://rpachallenge.com/movieSearch" ContentHash="VUhmef6vg0-Yu5kF-48VkQ" DesignTimeRectangle="11, 303, 1897, 1080" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;app-rpa3&amp;gt;div' tag='DIV' /&gt;" Guid="5c179a87-c2b4-4e22-901a-99ee29092eb4" Reference="XG5XaBg8w0i1qZqCFEjbhA/6eLVAyTaOUi0zrC6RSobjg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2842c5ad3714ec3916f0e83b9924adb4.png" xmlns="">0L7NOr3pis06tC-4mT_hBzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0 Src'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="1063, 516, 355, 530" DesignTimeScaleFactor="1.5" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='http://image.tmdb.org/t/p/w500//lFFDrFLXywFhy6khHes1LCFVMsL.jpg' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='http://image.tmdb.org/t/p/w500//lFFDrFLXywFhy6khHes1LCFVMsL.jpg' tag='IMG' type='' class='' aaname='' matching:src='fuzzy' fuzzylevel:src='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="616319ed-69d2-4893-b0f4-cd6b85c04584" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

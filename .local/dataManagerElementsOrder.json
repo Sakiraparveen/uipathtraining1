@@ -1,0 +1,79 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SmallestNumberInArray.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NumArray&Sequence_2",
+        "Min&Sequence_2",
+        "Index&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ExcelAutomation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MedicalEngineer&Sequence_2",
+        "Accountant&Sequence_2",
+        "Analyst&Sequence_2",
+        "index&Sequence_1",
+        "datatable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UIAutomation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "datatable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "EmailAutomation1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "datatable&Sequence_28",
+        "emailList&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BasicCalculatorDemo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Num1&Sequence_2",
+        "Num2&Sequence_2",
+        "Choice&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UIAutomation1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

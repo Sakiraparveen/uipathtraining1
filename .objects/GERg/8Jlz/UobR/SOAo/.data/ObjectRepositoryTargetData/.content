@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HPB0Mq-yOU6wtDkeIVV0QA" Reference="XG5XaBg8w0i1qZqCFEjbhA/SOAoJWa0UE-EGbZzwTJi7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="1099, 730, 283, 96" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='The Great Escape ' tag='SPAN' /&gt;" Guid="224fa137-9cfc-451a-b167-58e6ff145804" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1063, 161, 355, 533" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='*' tag='IMG' parentclass='card-image' idx='2' /&gt;" Guid="b6d4d421-39da-4d48-bcd8-2ddcd61ba15f" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7398bb86e567fefa502d2f40fd494b5d.png" xmlns="">0_26Fp4kc_EKc7HG1_vD9Sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

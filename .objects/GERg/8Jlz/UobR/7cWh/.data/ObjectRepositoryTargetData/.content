@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JkKe0AkiU0abYxc5ZWn88w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="acae4feb-8b5e-4f2c-b08e-52711acb5f40" CvTextArea="1029, 398, 97, 18" CvTextArgument="Last Name" CvType="Text" DesignTimeRectangle="1031, 394, 96, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Last Name' tag='LABEL' /&gt;" Guid="606086e1-4102-421e-8934-7fdfcbec542a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="acae4feb-8b5e-4f2c-b08e-52711acb5f40" CvElementArea="1024, 436, 363, 56" CvType="InputBox" DesignTimeRectangle="1031, 422, 352, 69" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='KMMc2' tag='INPUT' /&gt;" Guid="ca0852ff-d5f6-4f56-add2-105a74a32e96" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a492b78ceb6b7d172e31b9358554df5.png" xmlns="">0pfiuYGsWmU6QY1E9edQoNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

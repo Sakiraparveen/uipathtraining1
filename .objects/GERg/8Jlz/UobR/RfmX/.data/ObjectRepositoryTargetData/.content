@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NC0DGwXlSUiNIb15IPx2CA" Reference="XG5XaBg8w0i1qZqCFEjbhA/RfmXriHbpk2WcxpoC6FaoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="660, 300, 294, 641" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='2' tag='P' /&gt;" Guid="b7a1db73-8b46-4ff0-b9ee-29c14019bde2" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="144ee781-ca87-4187-b37c-50d968e979a1" CvElementArea="917, 223, 37, 36" CvTextArea="657, 233, 212, 33" CvTextArgument="Snow White" CvType="CloseButton" DesignTimeRectangle="660, 223, 294, 54" FullSelectorArgument="&lt;webctrl tag='P' idx='2' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Snow White ' type='' tag='SPAN' class='card-title grey-text text-darken-4' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Snow White&amp;#xA;close' /&gt;" Guid="3b1fadbd-6d2f-4aa7-bc5e-a49b74d0aae0" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="594eabbd05650776699b42c8ba7cc19b.png" xmlns="">0-4bupb-GaUumMiep7w-2TQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

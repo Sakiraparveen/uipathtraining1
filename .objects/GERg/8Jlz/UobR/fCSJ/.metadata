@@ -1,0 +1,14 @@
+﻿{
+  "Name": "An expelled boxing cham…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fCSJDO2HM0CwsSXfuygG4g",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/fCSJDO2HM0CwsSXfuygG4g",
+  "ParentRef": "XG5XaBg8w0i1qZqCFEjbhA/UobRqZ65YECWI-lBb2DeDw",
+  "Created": "2025-05-20T06:35:55.2966577Z",
+  "Updated": "2025-05-20T06:35:55.2966577Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

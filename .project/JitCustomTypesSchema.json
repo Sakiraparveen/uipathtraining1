@@ -1,0 +1,36 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "0873910284",
+        "bundleName": "fd0873910284",
+        "entitiesBundle": {
+          "Types": {
+            "FormData": {
+              "name": "FormData",
+              "properties": [
+                {
+                  "name": "SearchForMovies",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.UIAutomationNext.Activities.Design.SWEntities.fd0873910284",
+        "hash": "MDg3MzkxMDI4NA",
+        "assemblyName": "fd0873910284.c7Ufu2e9h3E1JjFv4MtyxN2"
+      }
+    }
+  ]
+}

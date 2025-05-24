@@ -1,0 +1,12 @@
+﻿{
+  "Name": "welcome Note",
+  "Type": "App",
+  "Id": "MyAeUlTJyU2fGAoe8HYjOw",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/MyAeUlTJyU2fGAoe8HYjOw",
+  "Created": "2025-05-10T10:15:59.0175541Z",
+  "Updated": "2025-05-10T10:15:59.0175541Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

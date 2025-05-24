@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Instructions EN ENROJA1…",
+  "Type": "Element",
+  "Id": "t8s0HxjW206uMTjattew9g",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/t8s0HxjW206uMTjattew9g",
+  "ParentRef": "XG5XaBg8w0i1qZqCFEjbhA/UobRqZ65YECWI-lBb2DeDw",
+  "Created": "2025-05-12T08:16:07.6868629Z",
+  "Updated": "2025-05-12T08:16:07.6868629Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

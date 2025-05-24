@@ -1,0 +1,13 @@
+﻿{
+  "Name": "more_vert(1)",
+  "Type": "Element",
+  "Id": "LCjZXDnr2EuwTlE5ave67g",
+  "Reference": "XG5XaBg8w0i1qZqCFEjbhA/LCjZXDnr2EuwTlE5ave67g",
+  "ParentRef": "XG5XaBg8w0i1qZqCFEjbhA/UobRqZ65YECWI-lBb2DeDw",
+  "Created": "2025-05-20T05:27:01.4377871Z",
+  "Updated": "2025-05-20T05:27:01.4377871Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

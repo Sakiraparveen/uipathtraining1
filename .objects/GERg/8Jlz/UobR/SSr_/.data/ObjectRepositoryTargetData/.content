@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OrXWphJHcEOXM8MUKnVSjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" CVScreenId="12788a20-707d-479b-b9f8-155f9d96ec9d" CvElementArea="1346, 837, 37, 39" CvType="Icon" DesignTimeRectangle="1346, 838, 36, 36" FuzzySelectorArgument="&lt;webctrl type='' class=' activator material-icons right' tag='I' aaname='more_vert' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='more_vert' /&gt;" Guid="35e3b77a-a292-425d-8b10-1c84dc225147" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACcSURBVFhH7dSxCYAwFIRhV0lnl0F0HbGzy052GUCcw06wF06Fh6CdXAIB74NUz+IHk1ehcApkKZClQJYCWckCtxjQ1g7OOdRNj3GxASlN4DTAn2FX3H38gHm3OSFJYOxecXb6aB8Q/hFY/C++PB9JQFxtQEoWmIsCWZnuoBb1N1rUNC3qgimQlekOalF/o0VN06IumAJZCmQpkAMckJcJ969dqr0AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="970f7fad-38e0-484c-8530-d7d0ea2180d0" DesignTimeRectangle="1063, 209, 355, 533" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='*' tag='IMG' parentclass='card-image' idx='2' /&gt;" Guid="c89d92dc-0153-4ef6-9bd8-8066abc7757e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e3032eed0bdc3d561f03a9b603769771.png" xmlns="">0VI_OlvUs-UeKjxRiOuMqDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

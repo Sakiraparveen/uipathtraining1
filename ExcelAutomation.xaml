@@ -95,9 +95,10 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExcelAutomation" sap:VirtualizedContainerService.HintSize="620,2405.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExcelAutomation" sap:VirtualizedContainerService.HintSize="938,3063.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="datatable">
         <sap:WorkflowViewStateService.ViewState>
@@ -121,7 +122,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="ExcelAutomation" sap:VirtualizedContainerService.HintSize="540,1668.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="ExcelAutomation" sap:VirtualizedContainerService.HintSize="540,2119.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="Analyst" />
         <Variable x:TypeArguments="x:String" Name="Accountant" />
@@ -132,34 +133,47 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ReadRange WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[datatable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="sheet1" WorkbookPath="C:\Users\ADMIN\Documents\Excel task.xlsx">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Excel Sheet Started To Read&quot;]" />
+      <ui:ReadRange WorkbookPathResource="{x:Null}" AddHeaders="True" sap2010:Annotation.AnnotationText="Reading sheet1" DataTable="[datatable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,150.66666666666666" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="sheet1" WorkbookPath="C:\Users\ADMIN\Documents\Excel task.xlsx">
         <ui:ReadRange.Range>
           <InArgument x:TypeArguments="x:String">
             <Literal x:TypeArguments="x:String" Value="" />
           </InArgument>
         </ui:ReadRange.Range>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </ui:ReadRange>
-      <ui:AddDataColumn x:TypeArguments="x:Int32" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Tax_Value" DataTable="[datatable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="506,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_8" />
-      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[index]" DataTable="[datatable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506,1233.3333333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:AddDataColumn x:TypeArguments="x:Int32" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" sap2010:Annotation.AnnotationText="Adding column name &quot;Tax_Value&quot;" ColumnName="Tax_Value" DataTable="[datatable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="506,254" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:AddDataColumn>
+      <ui:ForEachRow ColumnNames="{x:Null}" sap2010:Annotation.AnnotationText="Comparing Every Datatable" CurrentIndex="[index]" DataTable="[datatable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506,1446" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
         <ui:ForEachRow.Body>
           <ActivityAction x:TypeArguments="sd:DataRow">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,1058.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,1240.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:IfElseIfV2 Condition="[CurrentRow(&quot;Role in Company&quot;).ToString() = &quot;Analyst&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,860" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+              <ui:IfElseIfV2 sap2010:Annotation.AnnotationText="&quot;Assigned Tax Value As Per The Role Analyst -10,Medical Engg -15, Accountant-12&quot;" Condition="[CurrentRow(&quot;Role in Company&quot;).ToString() = &quot;Analyst&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,1042" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                 <ui:IfElseIfV2.Else>
-                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,227.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_15">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;This Role Is Not Listed In Company&quot;]" />
                   </Sequence>
                 </ui:IfElseIfV2.Else>
                 <ui:IfElseIfV2.ElseIfs>
@@ -204,6 +218,11 @@
                     </ui:IfElseIfBlock>
                   </sc:BindingList>
                 </ui:IfElseIfV2.ElseIfs>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
                 <ui:IfElseIfV2.Then>
                   <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,168" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <sap:WorkflowViewStateService.ViewState>
@@ -238,16 +257,27 @@
             </Sequence>
           </ActivityAction>
         </ui:ForEachRow.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </ui:ForEachRow>
     </Sequence>
-    <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Total Salary" DataTable="[datatable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="540,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_11" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[datatable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="540,490.6666666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+    <ui:AddDataColumn x:TypeArguments="x:String" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" sap2010:Annotation.AnnotationText="Adding column &quot;Total Salary&quot;" ColumnName="Total Salary" DataTable="[datatable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="540,254" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_11">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:AddDataColumn>
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[datatable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="540,667.3333333333334" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,316" sap2010:WorkflowViewState.IdRef="Sequence_22">
+          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,492.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_22">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -262,13 +292,14 @@
                 <InArgument x:TypeArguments="x:Object">[CInt(CurrentRow("Salary")) - CInt(CurrentRow("Salary")) * CInt(CurrentRow("Tax_Value")) / 100]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:WriteRange WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[datatable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="434,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteRange_5" SheetName="sheet2" WorkbookPath="C:\Users\ADMIN\Documents\Excel task.xlsx">
+            <ui:WriteRange WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[datatable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="434,148" sap2010:WorkflowViewState.IdRef="WriteRange_5" SheetName="sheet2" WorkbookPath="C:\Users\ADMIN\Documents\Excel task.xlsx">
               <ui:WriteRange.StartingCell>
                 <InArgument x:TypeArguments="x:String">
                   <Literal x:TypeArguments="x:String" Value="" />
                 </InArgument>
               </ui:WriteRange.StartingCell>
             </ui:WriteRange>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Process Completed&quot;]" />
           </Sequence>
         </ActivityAction>
       </ui:ForEachRow.Body>

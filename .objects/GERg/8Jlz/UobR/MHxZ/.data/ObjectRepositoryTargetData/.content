@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TAZmgj399kSR_YHDyr4_Kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="1099, 730, 283, 96" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Bambi: A Life in the ' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Bambi: A Life in the ' tag='SPAN' type='' class='card-title activator' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Bambi: A Life in the' /&gt;" Guid="895abbb7-9818-4497-b0b2-a8dafcafc25e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="11, -147, 1897, 120" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='*' /&gt;" Guid="bc32f8bc-d490-4acb-805d-3ee4f277e248" SearchSteps="Selector" />
+          <Target DesignTimeRectangle="1063, 161, 355, 533" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='http://image.tmdb.org/t/p/w500//vWNVHtwOhcoOEUSrY1iHRGbgH8O.jpg' tag='IMG' /&gt;" Guid="2571cb4d-ea68-43a7-98c4-311a92f901cf" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="957065e8e6a8cf26cf2268edc899b4d2.png" xmlns="">0GnQto2s05ka6mVx9Tg2f3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
